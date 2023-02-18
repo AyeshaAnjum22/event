@@ -1,0 +1,58 @@
+body{
+    
+    background-image: url("https://businessfacilities.com/wp-content/uploads/2015/04/centurylink.centerofexcellence.jpg");
+    background-size: cover;
+   opacity: 0.8;
+}
+.font{
+    color:black;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.loginbox{
+    width: 400px;
+    height: 800px;
+    background:lightblue;
+    color:black;
+
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 40px 50px;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+.loginbox input[type="text"] ,input[type="password"],input[type="number"],input[type="date"]
+{
+    border: none;
+    border-bottom: 1px solid green;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.loginbox input[type="button"]
+{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100px;
+    background:green;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox input[type="button"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+
